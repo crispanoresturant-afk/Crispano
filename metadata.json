@@ -1,0 +1,6 @@
+{
+  "name": "CRISPANO Restaurant | مطعم كرسبانو",
+  "description": "تطبيق مطعم كرسبانو للوجبات السريعة والبيتزا والبروست - اطلب أونلاين عبر واتساب واستمتع بأشهى الوجبات في أم درمان",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

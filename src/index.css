@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .ambient-shadow-1 {
+    box-shadow: 0px 4px 20px rgba(17, 17, 17, 0.06);
+  }
+  .ambient-shadow-2 {
+    box-shadow: 0px 8px 30px rgba(17, 17, 17, 0.12);
+  }
+  .ambient-shadow-glow {
+    box-shadow: 0px 10px 25px -5px rgba(242, 140, 24, 0.35);
+  }
+}
+
+/* Base font setup */
+body {
+  font-family: 'Cairo', 'Be Vietnam Pro', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #F8F5EF;
+  color: #1C1C18;
+  -webkit-tap-highlight-color: transparent;
+}
+
